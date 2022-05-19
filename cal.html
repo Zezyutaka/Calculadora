@@ -10,35 +10,36 @@
 <body>
   <section>
     <header>
-      <div id="resultado">000</div>
+      <div id="resultado"></div>
     </header>
     <div id="teclas">
       <div>
-        <input type="button" class="numero" value="1" onclick="clicar()">
-        <input type="button" class="numero" value="2" onclick="clicar()">
-        <input type="button" class="numero" value="3" onclick="clicar()">
-        <input type="button" class="char" value="+" onclick="clicar()">
-        <input type="button" class="char2" value="C" onclick="clicar()">
+        <input type="button" class="numero" value="1" onclick="clicar('1')">
+        <input type="button" class="numero" value="2" onclick="clicar('2')">
+        <input type="button" class="numero" value="3" onclick="clicar('3')">
+        <input type="button" class="char" value="+" onclick="clicar('+')">
+        <input type="button" class="char2" value="C" onclick="limpar()">
       </div>
       <div> 
-        <input type="button" class="numero" value="4" onclick="clicar()">
-        <input type="button" class="numero" value="5" onclick="clicar()">
-        <input type="button" class="numero" value="6" onclick="clicar()">
-        <input type="button" class="char" value="x" onclick="clicar()">  
+        <input type="button" class="numero" value="4" onclick="clicar('4')">
+        <input type="button" class="numero" value="5" onclick="clicar('5')">
+        <input type="button" class="numero" value="6" onclick="clicar('6')">
+        <input type="button" class="char" value="-" onclick="clicar('-')">  
       </div>
       <div>
-      <input type="button" class="numero" value="7" onclick="clicar()">
-      <input type="button" class="numero" value="8" onclick="clicar()">
-      <input type="button" class="numero" value="9" onclick="clicar()">
-      <input type="button" class="char" value="/" onclick="clicar()">
+      <input type="button" class="numero" value="7" onclick="clicar('7')">
+      <input type="button" class="numero" value="8" onclick="clicar('8')">
+      <input type="button" class="numero" value="9" onclick="clicar('9')">
+      <input type="button" class="char" value="/" onclick="clicar('/')">
       </div>
       <div>
-      <input type="button" class="char" value="." onclick="clicar()">
-      <input type="button" class="numero" value="0" onclick="clicar()">
-      <input type="button" class="char" value="," onclick="clicar()">
-      <input type="button" class="char" value="=" onclick="clicar()">
+      <input type="button" class="char" value="." onclick="clicar('.')">
+      <input type="button" class="numero" value="0" onclick="clicar('0')">
+      <input type="button" class="char" value="=" onclick="calcular('=')">
+      <input type="button" class="char" value="*" onclick="clicar('*')">
       </div>
     </div>
   </section>
+  <script src="./cal.js"></script>
 </body>
 </html>
