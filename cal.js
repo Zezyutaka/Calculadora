@@ -1,7 +1,3 @@
-  // let numero = document.querySelector('div#numero'.value)
-  // let char = document.querySelector('div#char'.value)
-  // let clear = document.querySelector('div#char2'.value)
-  // let resultado = document.querySelector('div#resultado'.value)
 
 function clicar(num) {
   let numero = document.querySelector('div#resultado').innerHTML;
