@@ -1,1 +1,1 @@
-Este é meu primeiro projeto de calculadora com JavaScript 
+Este é meu primeiro projeto de calculadora com JavaScript.
